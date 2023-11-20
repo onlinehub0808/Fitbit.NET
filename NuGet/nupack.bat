@@ -3,3 +3,4 @@ rmdir package\lib\net45 /s /q
 mkdir .\package\lib\net45
 copy ..\Fitbit.Portable\bin\Release\* .\package\lib\net45\
 nuget pack .\package\Fitbit.Public.nuspec -properties buildOutputPath=\lib\net45
+mkdir temp
